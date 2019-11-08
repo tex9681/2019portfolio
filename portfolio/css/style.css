@@ -211,7 +211,7 @@ body {font-family: 'Noto Sans KR', sans-serif; background: #2f2929; text-transfo
 }
 @keyframes js {
   0% {margin-top: 50px;}
-  100% {margin-top: -200px;}
+  100% {margin-top: -190px;}
 }
 @keyframes ps {
   0% {margin-top: 50px;}
@@ -250,7 +250,7 @@ body {font-family: 'Noto Sans KR', sans-serif; background: #2f2929; text-transfo
 
 /* project */
 #project {color: #2f2929; background: #2f2929; color: #f4b2b0;}
-#project .area {padding-top: 20%; position: relative;}
+#project .area {padding-top: 10%; position: relative;}
 #project .area > button {position: absolute; left: 40%; top: 100%;}
 #project .area .fade {padding-top: 100px;height: 508px;}
 #project .area .fade .up {top: -80px;right: 0;}
@@ -290,4 +290,10 @@ body {font-family: 'Noto Sans KR', sans-serif; background: #2f2929; text-transfo
 }
 
 /* contact */
-#contact {height: 1280px; background: #2f2929; font-size: 200px;}
+#contact {height: 1150px; background: #2f2929; padding-top: 20%;}
+#contact h5 {font-size: 170px; animation: contact 1s infinite; margin-left: 10%;}
+@keyframes contact {
+  0% {transform: translate(0px, 0px);}
+  70% {transform: translate(0px, -15px);}
+}
+#contact p {font-size: 35px; text-transform: none;}
