@@ -245,7 +245,7 @@ body {font-family: 'Noto Sans KR', sans-serif; background: #2f2929; text-transfo
 #project .area > button {position: absolute; left: 40%; top: 100%;}
 #project .area .fade {padding-top: 100px;height: 508px;}
 #project .area .fade .up {top: -80px;right: 0;}
-#project .btm {padding-top: 30%; position: relative;}
+#project .btm {padding-top: 23%; position: relative;}
 #project button {text-transform: uppercase; box-shadow: 0 0 0 0 rgba(244, 178, 176, 0.5); animation: pulse 1.5s infinite; width: 100px; height: 50px; line-height: 50px; border: 1px solid #f4b2b0; background: #2f2929; color: #f4b2b0; font-size: 23px; position: absolute; left: 53.2%; top: 78%;}
 #project button:hover {animation: none; color: #2f2929; background: #f4b2b0; font-weight: bold;}
 
@@ -280,7 +280,7 @@ body {font-family: 'Noto Sans KR', sans-serif; background: #2f2929; text-transfo
 }
 .cnt_txt {position: relative; z-index: 1000;}
 .cnt_txt .sub_tit {font-size: 80px; line-height: 1;}
-.cnt_txt.text_right {text-align: left; left: 670px;}
+.cnt_txt.text_right {text-align: left; left: 670px; width: 50%;}
 .cnt_txt.text_left {text-align: right; right: 700px; top: 150px;}
 
 .fade .up, .fade .down{-ms-filter:'progid:DXImageTransform.Microsoft.Alpha(Opacity=0)';filter:Alpha(Opacity=0);opacity: 0;-webkit-transition: all 0.5s;-moz-transition: all 0.5s;-o-transition: all 0.5s;transition: all 1.5s;}
