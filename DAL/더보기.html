@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="kr">
+
+<head>
+  <meta charset="UTF-8">
+  <style>
+    .js-load {
+      display: none;
+    }
+
+    .js-load.active {
+      display: block;
+    }
+
+    .is_comp.js-load:after {
+      display: none;
+    }
+
+    .btn-wrap,
+    .lists,
+    .main {
+      display: block;
+    }
+
+    .main {
+      max-width: 640px;
+      margin: 0 auto;
+    }
+
+    .lists {
+      margin-bottom: 4rem;
+    }
+
+    .lists__item {
+      padding: 20px;
+      background: #EEE;
+    }
+
+    .lists__item:nth-child(2n) {
+      background: #59b1eb;
+      color: #fff;
+    }
+
+    .btn-wrap {
+      text-align: center;
+    }
+  </style>
+  <title>Document</title>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      /* 문서 로딩시 보여지도록 함수 호출
+        load(보여질 목록의 부모태그, 처음에 보여질 리스트 개수)      */
+      load('#js-load', '4');    
+
+      //클릭시 추가로 보여지기
+      $('#js-btn-wrap .button').on('click', function (e) {
+        e.preventDefault();
+        //load(보여질 목록의 부모태그, 추가될 리스트 개수, 더보기 버튼을 담는 부모)
+        load('#js-load', '4');
+      })
+    });
+    function load(id, cnt) {
+      var more_list = id + ' .js-load:not(.active)';   //#js-load .js-load:not(.active) : 현재 남겨진 li 선택자
+      var more_length = $(more_list).length;    //남겨진 리스트들의 개수
+      var more_total_cnt;  //추가될 리스트 개수
+
+      if (cnt < more_length) { //남겨진 리스트의 개수가 클릭시 보여질 개수보다 클 경우
+        more_total_cnt = cnt;  //한번에 보여질 개수를 more_total_cnt에 대입 시키기
+      } else {                 //남겨진 개수가 적다면
+        more_total_cnt = more_length; //남겨진 개수를 more_total_cnt이란 변수에 대입 시켜라
+        $('.button').hide()   //남겨진 개수가 적으므로 더이상 more를 클릭할수 없도록 버튼을 제거
+      }
+
+      //클릭할때 마다 4개씩active란 class명 추가하기
+      $(more_list + ':lt(' + more_total_cnt + ')').addClass('active');
+      console.log('남겨진 리스트들의 개수 : ' + more_length, ', 추가될 리스트 개수 : ' +  more_total_cnt);
+    }
+  </script>
+</head>
+
+<body>
+  <header>
+    <h1>더보기(MORE) 버튼을 눌러 일정갯수의 리스트 더 보기</h1>
+  </header>
+  <div id="contents">
+    <div id="js-load" class="main">
+      <ul class="lists">
+        <li class="lists__item js-load">1</li>
+        <li class="lists__item js-load">2</li>
+        <li class="lists__item js-load">3</li>
+        <li class="lists__item js-load">4</li>
+        <li class="lists__item js-load">5</li>
+        <li class="lists__item js-load">6</li>
+        <li class="lists__item js-load">7</li>
+        <li class="lists__item js-load">8</li>
+        <li class="lists__item js-load">9</li>
+        <li class="lists__item js-load">10</li>
+      </ul>
+      <div id="js-btn-wrap" class="btn-wrap"> 
+        <a href="" class="button">더보기</a> 
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

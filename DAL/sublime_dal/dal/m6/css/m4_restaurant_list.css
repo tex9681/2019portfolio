@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+
+button {border: none; background: none; padding: 0; margin: 0; cursor: pointer;}
+
+#subnav img:nth-child(2) {width: 28px; margin: 13px 5px 15px;}
+#subnav h2 {left: 108px !important;}
+
+button.filter { margin: 3.5% 0px 0 -9%; font-size: 16px; font-weight: 500; width: 50px; height: 25px; line-height: 25px; background: #f26c69; color: #fff; border-radius: 5px; }
+
+.jjim_list {width: 90%; margin: 0 auto; margin-top: 18px;}
+.jjim_list li {float: left; width: 48%;position: relative;}
+.jjim_list li > a {display: block;}
+.jjim_list li > a:after {content: ''; display: block; clear: both;}
+.jjim_list li > a img {width: 100%;}
+.jjim_list li div {float: left;}
+.jjim_list li a span {display: block;}
+.jjim_list li a .tit {font-size: 12px; font-weight: 500; margin-top: 10px;}
+.jjim_list li a .city {font-size: 10px; margin-top: 5px; margin-bottom: 5px;}
+.jjim_list li a .grade {float: right; text-indent: -9999px; width: 16.7px; height: 16.7px; background: url(../images/jjimkong/jjim_icon2.gif) no-repeat; background-size: contain; margin-top: 10px;}
+.jjim_list li:nth-child(even) {margin-left: 4%; margin-bottom: 20px;}
+.jjim_list li .jjim {position: absolute; top: 5px; right: 0; width: 16%; height: auto; background: url(../images/jjimkong_heart2.png) no-repeat; background-size: contain; text-indent: -9999px;}
+.jjim_list li .jjim.on {background-image: url(../images/jjimkong_heart1.png);}
+.jjim_list li #icon span {font-size: 10px; display: inline-block; margin-right: 15px;}
+.jjim_list li #icon img {width: 15px; height: 15px; display: inline-block; vertical-align: middle;}
+.jjim_list li #icon .like.on {background: url(../images/jjimkong/jjim_icon3_on.gif) no-repeat; background-size: contain;}
+
+.btn {text-align: center;}
+button.more {width: 120px; height: 35px; background: #f26c69; color: #fff; margin: 15px 0;}

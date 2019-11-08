@@ -1,0 +1,55 @@
+@charset "utf-8";
+#content > div{padding: 10px 0;border-top: 1px solid #9a9a9a;}
+#content .cafe_status {border-top: none;}
+.cafe_status_name i{ color:#F26C69; font-size: 7vw; padding-left: 2%; }
+.cafe_status_name span {font-size: 6vw; top: 1.8vw;}
+.cafe_status_name img,.cafe_status_map img {width: 100%;}
+.cafe_status_map span, .cafe_title{font-size: 16px; font-weight: 500;}
+.cafe_status_map span {padding: 1vw 2vw 3vw; display: block; }
+.cafe_status_map iframe{border: none}
+.cafe_status_map div {float: right; font-size: 1.5vw; padding-right: 1.5vw;}
+.cafe_title {padding: 0 2vw; line-height: 2;}
+.cafe_convenience_contents{ display:flex; padding: 1vw 2.5vw; justify-content: space-between;}
+.cafe_convenience_contents .cafe_convenience_content, .cafe_review_text{font-size: 14px; color: #767676; }
+.cafe_convenience_contents .cafe_convenience_content {display:flex; flex-direction: column;}
+.cafe_convenience_contents .cafe_convenience_content span{margin-bottom: 1vw;}
+.cafe_convenience_contents .cafe_convenience_icon {display:flex; align-self : flex-end; justify-content: space-around; width: 40%; font-size: 4vw;}
+.cafe_menu .cafe_menu_imgs{display:flex; justify-content: space-around; margin-top:1.5vw;}
+.cafe_menu .cafe_menu_imgs img {width: 30%; height: auto;}
+.more {float: right; font-size: 13px; font-weight: 500; margin: 1vw 2vw; cursor: pointer;}
+.cafe_review_contents{display: flex; margin: 3vw 2vw 3vw 4vw;}
+.cafe_review_content{display: flex; justify-content: space-between; width: 100%;}
+.cafe_review_nic{display:flex; flex-direction: column;}
+.cafe_review_nic img{width: 9vw;}
+.cafe_review_nic span{font-size: 3vw; margin-top: 1vw; font-weight: 600;}
+.cafe_review_img{width:26%;}
+.cafe_review_img img{width: calc(100% - 4px); border: 1px solid black; padding:1px;}
+.cafe_review_text{width: 50%; line-height: 1.4;} 
+.cafe_review .cafe_title{display: flex; justify-content: space-between;}
+.cafe_title_content img {display: inline-block; width: 4vw;}
+.cafe_title_content span {border: 2px solid #F26C69; border-radius: 5px; padding: 0.5vw 1.5vw; font-size: 2vw; font-weight: 600; box-shadow: 0vw 0.6vw 0.3vw 0vw grey;}
+
+.swiper-slide img {width: 500px;}
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  margin: 20px 0 20px 0;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}

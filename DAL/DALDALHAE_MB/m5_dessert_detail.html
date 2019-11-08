@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+    <title> DALDALHAE - 성분분석 - 디저트 - 디테일(케이크)</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/m5_dessert_detail.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&display=swap" rel="stylesheet">
+    <!--[if lt IE 9]>
+        <script type="text/javascript" src="js/html5shiv.min.js"></script>
+    <![endif]-->
+    <script src="script/jquery-1.12.4.min.js"></script>
+    <script src="script/swiper.min.js"></script>
+    <script src="script/common.js"></script>
+</head>
+<body>
+  <div id="wrap">
+        <header id="header">
+            <h1 class="logo">
+                <a href="m_index.html"><img src="images/m_logo1.png" alt="달달해"></a>
+            </h1>
+        </header>
+
+        <nav id="subnav" class="clearfix">
+            <div class="sub"><a href="m3_dessert.html"><img src="images/arrow.png" alt="뒤로가기"></a><img src="images/m2_analysis.png" alt="돋보기"><h2>성분분석</h2></div>
+        </nav>
+
+        <section id="content" class="clearfix">
+            <h3> 스펀지케이크</h3>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img src="images/m5_cake.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="images/m5_cake2.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="images/m5_cake3.jpg" alt=""></div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+            <div class="txtbox">
+                <ul>
+                    <li>종류 : 케이크</li>
+                    <li>영양성분 : 탄수화물 : 27.59g / 단백질 : 3.9g / 지방 : 16.9g <br>당류 : 8.36g / 나트륨 : 96.63mg / 콜레스테롤 : 66.89mg<br>포화지방산 : 9.36g / 트랜스지방 : 0.34g</li>
+                    <li>칼로리 : 278.07</li>
+                </ul>
+            </div>
+        </section>
+
+        <nav id="nav" class="clearfix">
+            <a href="m_index.html"><div><img src="images/main.png" alt=""><span>Main</span></div></a>
+            <a href="m7_review.html"><div class="review"><img src="images/review.png" alt=""><span>리뷰</span></div></a>
+            <a href="m8_jjimkong.html"><div><img src="images/heart.png" alt=""><span>찜콩</span></div></a>
+            <a href="#"><div><img src="images/login.png" alt=""><span>로그인</span></div></a>
+        </nav>
+    </div>
+  <!-- Swiper JS -->
+  <script src="script/swiper.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      pagination: {
+        el: '.swiper-pagination',
+        dynamicBullets: true,
+      },
+    });
+  </script>
+</body>
+</html>

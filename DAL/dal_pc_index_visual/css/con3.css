@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+#content3 { width: 100%; height: 805px; /* overflow: hidden; */ }
+#con3 { width: 100%; height: 805px; }
+
+#con3.first .con3_left { position: relative; float: left; width: 50%; height: 100%; background: url("../pc_images/con3_1-1.jpg") no-repeat center center; }
+
+#con3.first .con3_right { position: relative; float: left; width: 50%; height: 100%; background: url("../pc_images/con3_2.jpg") no-repeat center center; }
+
+#con3 .con3_left2 { position: absolute; left: 0; top: 0; float: left; width: 100%; height: 100%; background: url("../pc_images/con3_1-2.jpg") no-repeat center center; animation: upDown 6s infinite; }
+@keyframes upDown {
+    0%{top: 0;height: 0;bottom: auto;}
+    20%{top: 0;height: 0;bottom: auto;}
+    40%{top: 0;height: 100%;bottom: auto;}
+    60%{top: auto;height: 100%;bottom: 0;}
+    80%{top: auto;height: 0;bottom: 0;}
+    100%{top: auto;height: 0;bottom: 0;}
+}
+
+#con3 .con3_right2 { position: absolute; left: 0; top: 0; float: left; width: 100%; height: 100%; background: url("../pc_images/con3_2-2.jpg") no-repeat center center; animation: DownUp 6s infinite; }
+@keyframes DownUp {
+    0%{top: auto;height: 0;bottom: 0;}
+    20%{top: auto;height: 0;bottom: 0;}
+    40%{top: auto;height: 100%;bottom: 0;}
+    60%{top: 0;height: 100%;bottom: auto;}
+    80%{top: 0;height: 0;bottom: auto;}
+    100%{top: 0;height: 0;bottom: auto;}
+}
+
+#content3 p { position: relative; padding: 60px 0 0 18px; font-family: 'Noto Sans KR', sans-serif; font-size: 22px; font-weight: 500; line-height: 36px; }
+#content3 p:last-child { padding: 68px 0 0 21px; }
+#content3 p:after { position: absolute; left: 20px; top: 36px; content: ""; width: 20px; height: 3px; background: #000; }
+.txt_box1 { position: relative; z-index: 900; margin: 72px 0 0 101px; width: 664px; height: 194px; background: rgba(255, 255, 255, 0.4); }
+.txt_box2 { position: relative; z-index: 900; margin: 72px 0 0 105px; width: 462px; height: 334px; background: rgba(255, 255, 255, 0.4); }
+
+.hide { opacity: 0; margin-left: -300px; }
+.hide2 { opacity: 0; margin-left: 1000px; }

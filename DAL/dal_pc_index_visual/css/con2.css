@@ -1,0 +1,14 @@
+*{margin: 0;padding: 0;}
+a {color: inherit; text-decoration: none;}
+.clearfix:after { display: block; content: ""; clear: both;}
+
+#content1 #box {width: 100%; height: 300px; background: lavenderblush; text-align: center; line-height: 300px; font-size: 30px; font-weight: bold;}
+
+#content2 {height: 1520px;}
+#content2 .bg {position: relative; background: #fddcd6; height: 832px; margin-top: 95px;}
+#content2 .bg .text {text-align: center; padding-top: 92px;}
+#content2 .bg .text h2 {font-size: 52px; margin-bottom: 55px;}
+#content2 .bg .text p {font-size: 22px; line-height: 1.7; margin-bottom: 300px; font-weight: 600;}
+#content2 .bg .images {position: absolute; width: 1120px; text-align: center;}
+#content2 .bg .images img {width: 560px;}
+#content2 .bg .images img+img {position: absolute; top: 10px;}

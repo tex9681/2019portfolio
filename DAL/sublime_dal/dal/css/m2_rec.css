@@ -1,0 +1,12 @@
+@charset "utf-8";
+#header { height: 90px; z-index: 1000; }
+#header .logo img { width: 65px; }
+
+#content { position:relative; box-sizing: border-box;  }
+
+#content div { width: 350px; height: 150px; background: #f1f1f1; }
+#content .cont { margin: 0 auto; margin-top: 40px; }
+#content div + div { margin-top: 70px;  }
+#content div img { width: 100%; }
+#content h3 { text-align: center; font-size: 18px; font-weight: 700; margin-top: 10px; }
+

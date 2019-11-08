@@ -1,0 +1,5 @@
+@charset "utf-8";
+#content .cont { padding-top: 40px; }
+#content .cont div { width: 350px; margin: 0 auto 40px; }/* background: #f1f1f1; */
+#content .cont div img { width: 100%; }
+#content .cont div h3 { text-align: center; font-size: 18px; font-weight: 700; margin-top: 10px; }

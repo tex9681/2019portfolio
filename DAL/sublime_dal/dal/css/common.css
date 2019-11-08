@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+body, h1, h2, h3, h4, h5, h6, p, ul, figure, figcaption{margin: 0;padding: 0}
+html, body{height: 100%;}
+body{font-family: 'Noto Sans KR', sans-serif; font-size: 16px;color: #333;line-height: 1;}
+h1, h2, h3, h4, h5, h6{font-size: 100%}
+ul{list-style: none;}
+a:link, a:visited, a:hover, a:active{text-decoration: none;color: inherit}
+img{vertical-align: top;border: none; display: block; max-width: 100%;}
+address{font-style: normal}
+header, nav, section, article, footer, aside, figure, figcaption{display: block;}
+.clearfix:after { content: ""; display: block; clear: both; }
+
+#wrap{height: 100%;}
+#header {height: 70px; padding: 10px 0; background: #ffadad; }
+#header .logo { width: 70px; height: 70px; border-radius: 50%; background: #fff; margin: 0 auto; }
+.logo img { width: 58px; padding: 17px 0 0 8px; }
+
+#subnav { z-index: 1000; position: relative; width: 100%; height: 55px; background: #fff; box-shadow: 0px 1px 7px 2px rgba(0, 0, 0, 0.1); }
+#subnav.scolled { position: fixed; top: 0; left: 0; }
+#subnav.scolled + #content { padding-top: 90px; }
+#subnav .sub a img { width: 15px; margin: 14px 0 0 15px; }
+#subnav img { width: 40px; margin: 7px 0 0 10px; float: left; }
+#subnav .sub h2 { position: absolute; top: 50%; left: 128px; transform: translate(-50%, -50%); font-size: 22px;  font-weight: 700; }
+
+/* #content{position:relative;min-height: 100%;padding: 90px 0 70px 0;box-sizing: border-box}나머지 서브 페이지 크기 */
+#content { position:relative; transition: padding-top 0.5s; padding-bottom: 60px; }
+
+
+#nav { position: fixed; left: 0; bottom: 0; width: 100%; height: 70px; background: #fff; box-shadow: 0px 2px 18px 2px rgba(0, 0, 0, 0.15); }
+#nav div { text-align: center; position: relative; float: left; width: 25%; height: 70px; border-left: 1px solid #ccc; box-sizing: border-box; }
+#nav div img { width: 35px; position: absolute; left: 50%; top: 50%; transform: translate(-50%,-80%); }
+#nav div.review img { width: 33px; transform: translate(-50%,-70%); }
+#nav a div span { font-size: 14px; font-weight: 500; position: absolute; left: 50%; top: 70%; transform: translate(-50%,-0%); color: #393939; }

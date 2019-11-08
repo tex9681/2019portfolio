@@ -1,0 +1,119 @@
+@font-face { font-family: 'yg-jalnan'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+body { font-family: 'Noto Sans KR', sans-serif; }
+
+*{margin: 0;padding: 0;}
+a {color: inherit; text-decoration: none;}
+button { background: none; border: none; cursor: pointer; }
+ul, li { list-style: none; }
+address { font-style: normal; }
+
+#visual {position: relative; width: 100%; height: 750px; margin-bottom: : 95px;}
+#visual > div {position: absolute; top: 0; width: 50%; height: 100%; overflow: hidden;}
+
+#visual > div, #visual div .bg, #visual div .txt {position: absolute;}
+#visual .left, #visual .left .bg {left: 0;}
+#visual .right, #visual .right .bg {right: 0;}
+
+#visual div .bg {width: 100vw; height: 100%; background: no-repeat center; background-size: cover;}
+#visual .left .bg {background-image: url("../pc_images/Ingredient_analysis.jpg");}
+#visual .right .bg {background-image: url("../pc_images/recommend_restarant.jpg"); background-position: 0 2px; }
+
+#visual div .txt {text-align: center; top: 50%;}
+#visual div .txt p {font-size: 18px; writing-mode: vertical-rl; text-orientation: mixed;  font-weight: 600; }
+#visual div .txt p span {font-size: 28px; font-weight: bold; line-height: 70px; letter-spacing: 6px;}
+#visual .left .txt {left: 30px; height: 245px; margin-top: -122.5px;}
+#visual .right .txt {right: 30px; height: 208px; margin-top: -104px;}
+
+#header { height: 95px; }
+#header h2 { position: relative; font-size: 80px; text-align: center; padding-top: 30px; z-index: 100; font-family: 'yg-jalnan'; }
+#header .logo img { float: left;  height: 70px; z-index: 101; text-align: center; line-height: 1; position: absolute; top: 0; left: 38px; width: 100%; padding-top: 50px; margin-top: 10px; width: 88px; }
+
+#content1 { overflow: hidden; position: relative; margin-top: 95px; width: 100%; height: 1000px;  margin-bottom: 95px; background: #ccc; }
+#content1 .cnt_wrap { height: 1200px; margin-top: -100px; background: url(../pc_images/con1.jpg) no-repeat center; background-size: cover; }
+#content1 .con1 { position: absolute; top: 45%; left: 50%; text-align: center; width: 960px; height: 252px; background-color: rgba(255, 255, 255, 0.7); transform: translate(-50%, -50%); }
+#content1 .con1 h2 { font-size: 52px; margin-top: 25px; font-weight: bold; font-family: 'yg-jalnan'; }
+#content1 .con1 p { font-size: 20px; margin-top: 50px; font-weight: 600; }
+
+#content2 {height: 1520px;}
+#content2 .bg {position: relative; background: #fddcd6; height: 832px; margin-top: 95px;}
+#content2 .bg .text {text-align: center; padding-top: 92px; margin-bottom: 190px; }
+#content2 .bg .text h2 { font-family: 'yg-jalnan'; font-size: 52px; margin-bottom: 55px;}
+#content2 .bg .text p {font-size: 22px; line-height: 1.7; font-weight: 600;}
+#content2 .bg .images {margin: 0 auto; width: 1120px; text-align: center;}
+#content2 .bg .images img {width: 560px; opacity: 0; transition: all 1s;}
+#content2 .bg .images img:first-child {transform: translateY(100px);}
+#content2 .bg .images img+img { transform: translateY(-100px); }
+#content2 .bg .images.on img {opacity: 1;}
+#content2 .bg .images.on img:first-child {transform: translateY(-100px);}
+#content2 .bg .images.on img+img { transform: translateY(100px); }
+
+
+#content3 { overflow: hidden; margin-top: 116px; width: 100%; height: 805px; /* overflow: hidden; */ }
+#con3 { width: 100%; height: 805px; }
+
+#con3.first .con3_left { position: relative; float: left; width: 50%; height: 100%; background: url("../pc_images/con3_1-1.jpg") no-repeat center center; }
+
+#con3.first .con3_right { position: relative; float: left; width: 50%; height: 100%; background: url("../pc_images/con3_2.jpg") no-repeat center center; }
+
+#con3 .con3_left2 { position: absolute; left: 0; top: 0; float: left; width: 100%; height: 100%; background: url("../pc_images/con3_1-2.jpg") no-repeat center center; animation: upDown 6s infinite; }
+@keyframes upDown {
+    0%{top: 0;height: 0;bottom: auto;}
+    20%{top: 0;height: 0;bottom: auto;}
+    40%{top: 0;height: 100%;bottom: auto;}
+    60%{top: auto;height: 100%;bottom: 0;}
+    80%{top: auto;height: 0;bottom: 0;}
+    100%{top: auto;height: 0;bottom: 0;}
+}
+
+#con3 .con3_right2 { position: absolute; left: 0; top: 0; float: left; width: 100%; height: 100%; background: url("../pc_images/con3_2-2.jpg") no-repeat center center; animation: DownUp 6s infinite; }
+@keyframes DownUp {
+    0%{top: auto;height: 0;bottom: 0;}
+    20%{top: auto;height: 0;bottom: 0;}
+    40%{top: auto;height: 100%;bottom: 0;}
+    60%{top: 0;height: 100%;bottom: auto;}
+    80%{top: 0;height: 0;bottom: auto;}
+    100%{top: 0;height: 0;bottom: auto;}
+}
+
+#content3 p { position: relative; padding: 60px 0 0 18px; font-family: 'Noto Sans KR', sans-serif; font-size: 22px; font-weight: 500; line-height: 36px; }
+#content3 p:last-child { padding: 68px 0 0 21px; }
+#content3 p:after { position: absolute; left: 20px; top: 36px; content: ""; width: 20px; height: 3px; background: #000; }
+
+#content3 #con3 .txt{ position: relative; z-index: 900; background: rgba(255, 255, 255, 0.4); opacity: 0; transition: margin-left 1s }
+.txt_box1 { margin: 72px 0 0 -300px; width: 664px; height: 194px; }
+.txt_box2 { margin: 72px 0 0 1000px; width: 462px; height: 334px; }
+#content3 #con3 .txt.on{opacity: 1; margin-left: 101px; }
+
+/* content4 */
+#content4 { text-align: center; margin-top: 114px; width: 100%; height: 804px; background: url("../pc_images/con4_2.jpg") no-repeat fixed center center; background-size: cover; overflow: hidden;}/* 가로 스크로바 제거 */
+
+#content4 strong { display: block; padding-top: 100px; font-family: 'yg-jalnan'; font-size: 45px;  }
+
+#miniSlider{ padding-left: 135px; position: relative; width: 1518px;height: 330px; margin-left: 250px; padding-top: 120px; overflow: hidden; }/* overflow: hidden */
+#miniSlider ul span { text-align: center; line-height: 50px; width: 50px; height: 50px; background: #ffebe7; position: absolute; left: 45%; top: -30px; border: 1px solid #fff; box-sizing: border-box; }
+#miniSlider ul{width: 3800px;}/* 105 x 7 = 735px + 105px(복제한것) => 840px, ul의 가로크기를 선언하지 않으면 li는 여러줄이 된다 */
+#miniSlider ul li{ position: relative; box-sizing: border-box; padding: 90px 0 0 20px; float: left;width: 480px; height: 330px;background: rgba(255,255,255,0.4); font-family: 'Noto Sans KR', sans-serif; font-weight: 500; font-size: 22px; line-height: 40px; }
+#miniSlider ul li + li { margin-left: 200px; }
+#miniSlider button{position: absolute; top: 58%;}
+#miniSlider button:last-child { right: 240px;}
+#prev{left: 0;}
+#next{right: 0;}
+
+/* footer */
+#footer { width: 100%; height: 400px; }
+#footer .f_logo { padding-top: 95px; text-align: center; }
+#footer .f_logo img { width: 90px; }
+#footer .sns { margin-top: 67px; }
+.sns ul { display: table; margin-left: auto; margin-right: auto; }
+.sns ul li { float: left; }
+.sns ul li+li { margin-left: 60px; }
+.sns ul li a { display: block; width: 33px; height: 30px; text-indent: -9999px; }
+.sns .list1 a { width: 15px; transition: all 0.5s; background: url("../pc_images/facebook.png") no-repeat; }
+.sns .list1 a:hover, .sns .list1 a:focus { background-image: url("../pc_images/facebook_2.png"); }
+.sns .list2 a { transition: all 0.5s; background: url("../pc_images/insta.png") no-repeat; }
+.sns .list2 a:hover, .sns .list2 a:focus { background-image: url("../pc_images/insta_2.png"); }
+.sns .list3 a { transition: all 0.5s; background: url("../pc_images/twitter.png") no-repeat; background-position: 0 3px;}
+.sns .list3 a:hover, .sns .list3 a:focus { background-image: url("../pc_images/twitter_2.png"); }
+#footer address { margin-top: 20px; text-align: center; font-family: 'Noto Sans KR', sans-serif; font-size: 16px; font-weight: 500; }
+#footer address strong { font-weight: 900; }

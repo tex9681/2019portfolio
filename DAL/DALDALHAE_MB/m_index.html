@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+    <title> DALDALHAE MAIN </title>
+    <link rel="stylesheet" href="css/common.css">
+    <style>
+        #header { position: fixed; left: 0; top: 0; width: 100%; height: 90px; z-index: 1000; }
+        #header .logo img { width: 65px; }
+    </style>
+    <link rel="stylesheet" href="css/flickity.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&display=swap" rel="stylesheet">
+    <!--[if lt IE 9]>
+        <script type="text/javascript" src="js/html5shiv.min.js"></script>
+    <![endif]-->
+    <script src="script/flickity.pkgd.min.js"></script>
+    <script src="script/jquery-1.12.4.min.js"></script>
+	<script>
+		$(document).ready(function (){
+			var carouselTop = (($(window).height() - $('#content .carousel').outerHeight()) / 2) + 10;
+			console.log(carouselTop);
+			$('#content .carousel').css('top', carouselTop)
+		});
+	</script>
+</head>
+<body>
+    <div id="wrap">
+        <header id="header">
+            <h1 class="logo"><a href="m_index.html"><img src="images/m_logo1.png" alt="달달해"></a></h1>
+        </header>
+        <section id="content">
+                <div class="carousel" data-flickity>
+                    <div class="carousel-cell"><h3>성분분석</h3><a href="m2_Ingredient_analysis.html"><img src="images/m1_img1.jpg" alt="성분분석"></a></div>
+                    <div class="carousel-cell"><h3>맛집추천</h3><a href="m2_recommend_restaurant.html"><img src="images/m1_img2.jpg" alt="맛집추천"></a></div>
+                </div>
+        </section>
+        <nav id="nav" class="clearfix">
+            <a href="m_index.html"><div><img src="images/main.png" alt="메인""><span>Main</span></div></a>
+            <a href="m7_review.html"><div class="review"><img src="images/review.png" alt="리뷰"><span>리뷰</span></div></a>
+            <a href="m8_jjimkong.html"><div><img src="images/heart.png" alt="찜콩"><span>찜콩</span></div></a>
+            <a href="#"><div><img src="images/login.png" alt="로그인"><span>로그인</span></div></a>
+        </nav>
+    </div>
+</body>
+</html>
