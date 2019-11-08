@@ -165,7 +165,7 @@ body {font-family: 'Noto Sans KR', sans-serif; background: #2f2929; text-transfo
 #skill .skillwrap {position:relative;top: 0;left: 0;height: 100vh;}
 #skill .skillwrap.fix {position: fixed;}
 
-#skill .skillwrap > ul {position:relative; top:50%; margin-top: -200px; margin-left: 0; width: 5050px; height: 400px; padding: 0 500px 0 1700px;}
+#skill .skillwrap > ul {position:relative; top:50%; margin-top: -200px; margin-left: 0; width: 5050px; height: 400px; padding: 0 500px 0 2000px;}
 #skill .skillwrap > ul > li {float:left; width: 400px;height: 400px; line-height: 400px; font-size: 65px; border: 5px solid #f4b2b0; border-radius: 50%; text-align: center; position: relative;
    box-shadow: 0 2px 15px 3px rgba(0, 0, 0, 0.5); overflow: hidden; color: #2f2929; background: rgba(255, 182, 179, 0.75);}
 #skill.on .skillwrap > ul > li .wave {position: absolute; top: -70%; left: 25%; width: 600px; height: 600px; margin-top: -200px; margin-left: -200px; background-color: #2f2929; border-radius: 40%; opacity: 0.3;}
@@ -227,12 +227,12 @@ body {font-family: 'Noto Sans KR', sans-serif; background: #2f2929; text-transfo
 }
 
 /* project_txt */
-#project_txt {height: 2000px; position:relative;z-index: 1000; background:#f4b2b0; color: #2f2929;}
+#project_txt {font-size: 0; height: 2000px; position:relative;z-index: 1000; background:#e6a6a3; color: #2f2929;}
 
-.container {display: flex; align-items: center; justify-content: center; width: 100%; height: 1000px; font-size: 250px; position: relative;}
+.container {display: flex; align-items: center; justify-content: center; width: 100%; height: 1000px; position: relative;}
 
 .reveal {overflow: hidden;}
-#project_txt.on .reveal__content {transform: translateY(100%); animation: reveal 2s cubic-bezier(1, 0, 0, 1) forwards; padding-top: 100%;}
+#project_txt.on .reveal__content {font-size: 250px; transform: translateY(100%); animation: reveal 2s cubic-bezier(1, 0, 0, 1) forwards; padding-top: 100%;}
 
 @keyframes reveal {
   from {transform: translateY(100%);}
@@ -254,6 +254,7 @@ body {font-family: 'Noto Sans KR', sans-serif; background: #2f2929; text-transfo
 #project img.dal_pc {width: 60%; top: 100px !important;}
 #project img.dal_mob {width: 55%;}
 #project img.responsive {width: 64%; top: 100px !important;}
+#project img.study {width: 40%; right: 160px !important;}
 .area {width: 1220px;margin: 0px auto;}
 
 @keyframes pulse {
