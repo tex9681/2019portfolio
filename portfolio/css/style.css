@@ -250,7 +250,7 @@ body {font-family: 'Noto Sans KR', sans-serif; background: #2f2929; text-transfo
 
 /* project */
 #project {color: #2f2929; background: #2f2929; color: #f4b2b0;}
-#project .area {padding-top: 21%; position: relative;}
+#project .area {padding-top: 19%; position: relative;}
 #project .area > button {position: absolute; left: 40%; top: 100%;}
 #project .area .fade {padding-top: 100px;height: 508px;}
 #project .area .fade .up {top: -80px;right: 0;}
