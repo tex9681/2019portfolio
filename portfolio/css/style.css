@@ -296,4 +296,4 @@ body {font-family: 'Noto Sans KR', sans-serif; background: #2f2929; text-transfo
   0% {transform: translate(0px, 0px);}
   70% {transform: translate(0px, -15px);}
 }
-#contact p {font-size: 35px; text-transform: none;}
+#contact p {font-size: 35px; text-transform: none; transform: translate(50%, -50%); line-height: 2;}
