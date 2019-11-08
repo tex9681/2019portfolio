@@ -139,7 +139,6 @@ body {font-family: 'Noto Sans KR', sans-serif; background: #2f2929; text-transfo
 }
 
 #main .arrow {font-size: 50px; text-align: center; padding: 45% 0; display: none;}
-#main .arrow .fa.fa-arrow-down {cursor: auto;}
 
 .bounce {-webkit-animation: bounce 1.2s infinite; -moz-animation: bounce 1.2s infinite; -o-animation: bounce 1.2s infinite; animation: bounce 1.2s infinite;}
 
@@ -290,10 +289,12 @@ body {font-family: 'Noto Sans KR', sans-serif; background: #2f2929; text-transfo
 }
 
 /* contact */
-#contact {height: 1150px; background: #2f2929; padding-top: 20%;}
+#contact {height: 1150px; background: #2f2929; padding-top: 20%; position: relative;}
 #contact h5 {font-size: 170px; animation: contact 1s infinite; margin-left: 10%;}
 @keyframes contact {
   0% {transform: translate(0px, 0px);}
   70% {transform: translate(0px, -15px);}
 }
-#contact p {font-size: 35px; text-transform: none; transform: translate(50%, -50%); line-height: 2;}
+#contact p {font-size: 35px; text-transform: none; transform: translate(50%, -50%); line-height: 75px; font-family: 'Play', sans-serif; font-weight: bold;}
+#contact .call {font-size: 40px; margin-right: 20px; margin-left: 4.5px;}
+#contact .mail {margin-right: 15px;}
