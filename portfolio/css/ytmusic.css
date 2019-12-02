@@ -1,0 +1,12 @@
+body, h1, h2, h3, h4, p, ul, button {margin: 0; padding: 0;}
+ul {list-style: none;}
+a:link, a:visited, a:hover, a:active {text-decoration: none; color: inherit}
+img {vertical-align: top}
+section, article{display: block;}
+body {font-family: 'Noto Sans KR', sans-serif; background: #f2f2f2;}
+
+article {text-align: center;}
+#info {margin: 120px;}
+#info img {width: 50px; margin-bottom: 20px;}
+#info h1 {font-size: 26px;}
+#info p {margin-top: 15px; font-size: 18px; line-height: 24px;}

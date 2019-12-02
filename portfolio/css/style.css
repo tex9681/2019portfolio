@@ -179,18 +179,18 @@ body {font-family: 'Noto Sans KR', sans-serif; background: #2f2929; text-transfo
 #skill.on .skillwrap > ul > li .wave {position: absolute; top: -70%; left: 25%; width: 600px; height: 600px; margin-top: -200px; margin-left: -200px; background-color: #2f2929; border-radius: 40%; -ms-filter:'progid:DXImageTransform.Microsoft.Alpha(Opacity=30)';filter:Alpha(Opacity=30); opacity: 0.3;}
 #skill.on .skillwrap > ul > li .wave.w2 {background-color: #2f2929;-ms-filter:'progid:DXImageTransform.Microsoft.Alpha(Opacity=70)';filter:Alpha(Opacity=70); opacity: 0.7;}
 #skill.on .skillwrap > ul > li .wave.w3 {background-color: #2f2929;-ms-filter:'progid:DXImageTransform.Microsoft.Alpha(Opacity=50)';filter:Alpha(Opacity=50); opacity: 0.5;}
-#skill.on .skillwrap > ul > li:nth-child(1) .wave {-webkit-animation: html 3s 2s both, shift 3s infinite linear; -moz-animation: html 3s 2s both, shift 3s infinite linear; -o-animation: html 3s 2s both, shift 3s infinite linear; animation: html 3s 2s both, shift 3s infinite linear;}
-#skill.on .skillwrap > ul > li:nth-child(1) .wave.w2 {-webkit-animation: html 3s 2s both, shift 7s infinite linear; -moz-animation: html 3s 2s both, shift 7s infinite linear; -o-animation: html 3s 2s both, shift 7s infinite linear; animation: html 3s 2s both, shift 7s infinite linear;}
-#skill.on .skillwrap > ul > li:nth-child(1) .wave.w3 {-webkit-animation: html 3s 2s both, shift 5s infinite linear; -moz-animation: html 3s 2s both, shift 5s infinite linear; -o-animation: html 3s 2s both, shift 5s infinite linear; animation: html 3s 2s both, shift 5s infinite linear;}
-#skill.on .skillwrap > ul > li:nth-child(2) .wave {-webkit-animation: css 3s 3.5s both, shift 3s infinite linear; -moz-animation: css 3s 3.5s both, shift 3s infinite linear; -o-animation: css 3s 3.5s both, shift 3s infinite linear; animation: css 3s 3.5s both, shift 3s infinite linear;}
-#skill.on .skillwrap > ul > li:nth-child(2) .wave.w2 {-webkit-animation: css 3s 3.5s both, shift 7s infinite linear; -moz-animation: css 3s 3.5s both, shift 7s infinite linear; -o-animation: css 3s 3.5s both, shift 7s infinite linear; animation: css 3s 3.5s both, shift 7s infinite linear;}
-#skill.on .skillwrap > ul > li:nth-child(2) .wave.w3 {-webkit-animation: css 3s 3.5s both, shift 5s infinite linear; -moz-animation: css 3s 3.5s both, shift 5s infinite linear; -o-animation: css 3s 3.5s both, shift 5s infinite linear; animation: css 3s 3.5s both, shift 5s infinite linear;}
-#skill.on .skillwrap > ul > li:nth-child(3) .wave {-webkit-animation: js 3s 5s both, shift 3s infinite linear; -moz-animation: js 3s 5s both, shift 3s infinite linear; -o-animation: js 3s 5s both, shift 3s infinite linear; animation: js 3s 5s both, shift 3s infinite linear;}
-#skill.on .skillwrap > ul > li:nth-child(3) .wave.w2 {-webkit-animation: js 3s 5s both, shift 7s infinite linear; -moz-animation: js 3s 5s both, shift 7s infinite linear; -o-animation: js 3s 5s both, shift 7s infinite linear; animation: js 3s 5s both, shift 7s infinite linear;}
-#skill.on .skillwrap > ul > li:nth-child(3) .wave.w3 {-webkit-animation: js 3s 5s both, shift 5s infinite linear; -moz-animation: js 3s 5s both, shift 5s infinite linear; -o-animation: js 3s 5s both, shift 5s infinite linear; animation: js 3s 5s both, shift 5s infinite linear;}
-#skill.on .skillwrap > ul > li:nth-child(4) .wave {-webkit-animation: ps 3s 6.5s both, shift 3s infinite linear; -moz-animation: ps 3s 6.5s both, shift 3s infinite linear; -o-animation: ps 3s 6.5s both, shift 3s infinite linear; animation: ps 3s 6.5s both, shift 3s infinite linear;}
-#skill.on .skillwrap > ul > li:nth-child(4) .wave.w2 {-webkit-animation: ps 3s 6.5s both, shift 7s infinite linear; -moz-animation: ps 3s 6.5s both, shift 7s infinite linear; -o-animation: ps 3s 6.5s both, shift 7s infinite linear; animation: ps 3s 6.5s both, shift 7s infinite linear;}
-#skill.on .skillwrap > ul > li:nth-child(4) .wave.w3 {-webkit-animation: ps 3s 6.5s both, shift 5s infinite linear; -moz-animation: ps 3s 6.5s both, shift 5s infinite linear; -o-animation: ps 3s 6.5s both, shift 5s infinite linear; animation: ps 3s 6.5s both, shift 5s infinite linear;}
+#skill.on .skillwrap > ul > li:nth-child(1) .wave {-webkit-animation: ps 3s 2s both, shift 3s infinite linear; -moz-animation: ps 3s 2s both, shift 3s infinite linear; -o-animation: ps 3s 2s both, shift 3s infinite linear; animation: ps 3s 2s both, shift 3s infinite linear;}
+#skill.on .skillwrap > ul > li:nth-child(1) .wave.w2 {-webkit-animation: ps 3s 2s both, shift 7s infinite linear; -moz-animation: ps 3s 2s both, shift 7s infinite linear; -o-animation: ps 3s 2s both, shift 7s infinite linear; animation: ps 3s 2s both, shift 7s infinite linear;}
+#skill.on .skillwrap > ul > li:nth-child(1) .wave.w3 {-webkit-animation: ps 3s 2s both, shift 5s infinite linear; -moz-animation: ps 3s 2s both, shift 5s infinite linear; -o-animation: ps 3s 2s both, shift 5s infinite linear; animation: ps 3s 2s both, shift 5s infinite linear;}
+#skill.on .skillwrap > ul > li:nth-child(2) .wave {-webkit-animation: html 3s 3.5s both, shift 3s infinite linear; -moz-animation: html 3s 3.5s both, shift 3s infinite linear; -o-animation: html 3s 3.5s both, shift 3s infinite linear; animation: html 3s 3.5s both, shift 3s infinite linear;}
+#skill.on .skillwrap > ul > li:nth-child(2) .wave.w2 {-webkit-animation: html 3s 3.5s both, shift 7s infinite linear; -moz-animation: html 3s 3.5s both, shift 7s infinite linear; -o-animation: html 3s 3.5s both, shift 7s infinite linear; animation: html 3s 3.5s both, shift 7s infinite linear;}
+#skill.on .skillwrap > ul > li:nth-child(2) .wave.w3 {-webkit-animation: html 3s 3.5s both, shift 5s infinite linear; -moz-animation: html 3s 3.5s both, shift 5s infinite linear; -o-animation: html 3s 3.5s both, shift 5s infinite linear; animation: html 3s 3.5s both, shift 5s infinite linear;}
+#skill.on .skillwrap > ul > li:nth-child(3) .wave {-webkit-animation: illust 3s 5s both, shift 3s infinite linear; -moz-animation: illust 3s 5s both, shift 3s infinite linear; -o-animation: illust 3s 5s both, shift 3s infinite linear; animation: illust 3s 5s both, shift 3s infinite linear;}
+#skill.on .skillwrap > ul > li:nth-child(3) .wave.w2 {-webkit-animation: illust 3s 5s both, shift 7s infinite linear; -moz-animation: illust 3s 5s both, shift 7s infinite linear; -o-animation: illust 3s 5s both, shift 7s infinite linear; animation: illust 3s 5s both, shift 7s infinite linear;}
+#skill.on .skillwrap > ul > li:nth-child(3) .wave.w3 {-webkit-animation: illust 3s 5s both, shift 5s infinite linear; -moz-animation: illust 3s 5s both, shift 5s infinite linear; -o-animation: illust 3s 5s both, shift 5s infinite linear; animation: illust 3s 5s both, shift 5s infinite linear;}
+#skill.on .skillwrap > ul > li:nth-child(4) .wave {-webkit-animation: xd 3s 6.5s both, shift 3s infinite linear; -moz-animation: xd 3s 6.5s both, shift 3s infinite linear; -o-animation: xd 3s 6.5s both, shift 3s infinite linear; animation: xd 3s 6.5s both, shift 3s infinite linear;}
+#skill.on .skillwrap > ul > li:nth-child(4) .wave.w2 {-webkit-animation: xd 3s 6.5s both, shift 7s infinite linear; -moz-animation: xd 3s 6.5s both, shift 7s infinite linear; -o-animation: xd 3s 6.5s both, shift 7s infinite linear; animation: xd 3s 6.5s both, shift 7s infinite linear;}
+#skill.on .skillwrap > ul > li:nth-child(4) .wave.w3 {-webkit-animation: xd 3s 6.5s both, shift 5s infinite linear; -moz-animation: xd 3s 6.5s both, shift 5s infinite linear; -o-animation: xd 3s 6.5s both, shift 5s infinite linear; animation: xd 3s 6.5s both, shift 5s infinite linear;}
 #skill .skillwrap > ul > li:nth-child(1) {top: 30%; margin: 0 5%;}
 #skill .skillwrap > ul > li:nth-child(2) {top: -45%; margin: 0 3%;}
 #skill .skillwrap > ul > li:nth-child(3) {top: 15%; margin: 0 8%;}
@@ -209,72 +209,72 @@ body {font-family: 'Noto Sans KR', sans-serif; background: #2f2929; text-transfo
   from {transform: rotate(270deg);}
 }
 
-@-webkit-keyframes html {
-  0% {margin-top: 50px;}
-  100% {margin-top: -270px;}
-}
-@-moz-keyframes html {
-  0% {margin-top: 50px;}
-  100% {margin-top: -270px;}
-}
-@-o-keyframes html {
-  0% {margin-top: 50px;}
-  100% {margin-top: -270px;}
-}
-@keyframes html {
-  0% {margin-top: 50px;}
-  100% {margin-top: -270px;}
-}
-
-@-webkit-keyframes css {
-  0% {margin-top: 50px;}
-  100% {margin-top: -275px;}
-}
-@-moz-keyframes css {
-  0% {margin-top: 50px;}
-  100% {margin-top: -275px;}
-}
-@-o-keyframes css {
-  0% {margin-top: 50px;}
-  100% {margin-top: -275px;}
-}
-@keyframes css {
-  0% {margin-top: 50px;}
-  100% {margin-top: -275px;}
-}
-
-@-webkit-keyframes js {
-  0% {margin-top: 50px;}
-  100% {margin-top: -130px;}
-}
-@-moz-keyframes js {
-  0% {margin-top: 50px;}
-  100% {margin-top: -130px;}
-}
-@-o-keyframes js {
-  0% {margin-top: 50px;}
-  100% {margin-top: -130px;}
-}
-@keyframes js {
-  0% {margin-top: 50px;}
-  100% {margin-top: -130px;}
-}
-
 @-webkit-keyframes ps {
   0% {margin-top: 50px;}
-  100% {margin-top: -295px;}
+  100% {margin-top: -270px;}
 }
 @-moz-keyframes ps {
   0% {margin-top: 50px;}
-  100% {margin-top: -295px;}
+  100% {margin-top: -270px;}
 }
 @-o-keyframes ps {
   0% {margin-top: 50px;}
-  100% {margin-top: -295px;}
+  100% {margin-top: -270px;}
 }
 @keyframes ps {
   0% {margin-top: 50px;}
-  100% {margin-top: -295px;}
+  100% {margin-top: -270px;}
+}
+
+@-webkit-keyframes html {
+  0% {margin-top: 50px;}
+  100% {margin-top: -210px;}
+}
+@-moz-keyframes html {
+  0% {margin-top: 50px;}
+  100% {margin-top: -210px;}
+}
+@-o-keyframes html {
+  0% {margin-top: 50px;}
+  100% {margin-top: -210px;}
+}
+@keyframes html {
+  0% {margin-top: 50px;}
+  100% {margin-top: -210px;}
+}
+
+@-webkit-keyframes illust {
+  0% {margin-top: 50px;}
+  100% {margin-top: -160px;}
+}
+@-moz-keyframes illust {
+  0% {margin-top: 50px;}
+  100% {margin-top: -160px;}
+}
+@-o-keyframes illust {
+  0% {margin-top: 50px;}
+  100% {margin-top: -160px;}
+}
+@keyframes illust {
+  0% {margin-top: 50px;}
+  100% {margin-top: -160px;}
+}
+
+@-webkit-keyframes xd {
+  0% {margin-top: 50px;}
+  100% {margin-top: -120px;}
+}
+@-moz-keyframes xd {
+  0% {margin-top: 50px;}
+  100% {margin-top: -120px;}
+}
+@-o-keyframes xd {
+  0% {margin-top: 50px;}
+  100% {margin-top: -120px;}
+}
+@keyframes xd {
+  0% {margin-top: 50px;}
+  100% {margin-top: -120px;}
 }
 
 @-webkit-keyframes skillText {
@@ -330,11 +330,11 @@ body {font-family: 'Noto Sans KR', sans-serif; background: #2f2929; text-transfo
 #project button:hover {animation: none; color: #2f2929; background: #f4b2b0; font-weight: bold;}
 
 #project .btm .area {height: 700px;}
-#project .btm .area .up {top: 0;left: -100px;}
+#project .btm .area .up:nth-child(2) {top: 0;left: -100px;}
 #project img.dal_pc {width: 60%; top: 100px !important;}
 #project img.dal_mob {width: 55%;}
-#project img.responsive {width: 64%; top: 100px !important;}
-#project img.study {width: 40%; right: 160px !important;}
+#project img.ytmusic {width: 85%; top: 300px !important; left: -230px !important;}
+#project img.banner {width: 65%;}
 .area {width: 1220px;margin: 0px auto;}
 
 @-webkit-keyframes pulse {
