@@ -4,5 +4,5 @@
 <h3>:cake:TEAM PROJECT 'DALDALHAE'</h3>
 <a href="https://tex9681.github.io/2019portfolio/DAL/DALDALHAE_PC/pc_index.html">&gt; PC &lt;</a><br>
 <a href="https://tex9681.github.io/2019portfolio/DAL/DALDALHAE_MB_edit/m_index.html">&gt; MOBILE &lt;</a><br>
-[MOBILE](https://tex9681.github.io/2019portfolio/DAL/DALDALHAE_MB_edit/m_index.html){: target="_blank"}
+[MOBILE]("https://tex9681.github.io/2019portfolio/DAL/DALDALHAE_MB_edit/m_index.html"){: target="_blank"}
 <a href="https://tex9681.github.io/nyam/html/">&gt; MY STUDY &lt;</a>
