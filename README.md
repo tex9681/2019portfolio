@@ -6,4 +6,6 @@
 
 <a href="https://tex9681.github.io/2019portfolio/DAL/DALDALHAE_MB_edit/m_index.html">&gt; MOBILE &lt;</a>
 
+[Link to Google](https://www.google.com/){: target="_blank"}
+
 <a href="https://tex9681.github.io/nyam/html/">&gt; MY STUDY &lt;</a>
